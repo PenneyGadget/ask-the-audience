@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Ask the Audience</title>
+  </head>
+  <body>
+    <h1>Voting is so cool!</h1>
+    <div id="status-message"></div><br>
+    <div id="connection-count"></div><br>
+
+    <h3>Vote!</h3>
+    <div id="choices">
+      <button>A</button>
+      <button>B</button>
+      <button>C</button>
+      <button>D</button>
+    </div><br>
+    <div id="my-vote"></div>
+
+    <h3>Current Votes:</h3>
+    <ul id="vote-tally"></ul>
+
+    <!-- Make sure your JS is at the bottom of the body! -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
